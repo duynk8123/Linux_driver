@@ -1,0 +1,16 @@
+# Bỏ tất cả các file sinh ra trong quá trình build
+*.o
+*.ko
+*.mod.*
+*.symvers
+*.order
+.*.cmd
+*.cmd
+*.tmp
+*.mod.c
+
+# Thư mục VSCode (nếu không cần lưu)
+.vscode/
+
+# Tất cả file tạm
+*~
