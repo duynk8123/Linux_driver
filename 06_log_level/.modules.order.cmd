@@ -1,0 +1,1 @@
+cmd_/home/pi/Programming/Linux_Driver/06_log_level/modules.order := {   echo /home/pi/Programming/Linux_Driver/06_log_level/log_level.ko; :; } > /home/pi/Programming/Linux_Driver/06_log_level/modules.order

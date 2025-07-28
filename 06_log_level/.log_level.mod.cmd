@@ -1,0 +1,1 @@
+cmd_/home/pi/Programming/Linux_Driver/06_log_level/log_level.mod := printf '%s\n'   log_level.o | awk '!x[$$0]++ { print("/home/pi/Programming/Linux_Driver/06_log_level/"$$0) }' > /home/pi/Programming/Linux_Driver/06_log_level/log_level.mod

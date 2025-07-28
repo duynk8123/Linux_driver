@@ -1,0 +1,1 @@
+cmd_/home/pi/Programming/Linux_Driver/01_hello/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/pi/Programming/Linux_Driver/01_hello/"$$0) }' > /home/pi/Programming/Linux_Driver/01_hello/hello.mod

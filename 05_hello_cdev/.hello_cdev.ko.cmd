@@ -1,0 +1,1 @@
+cmd_/home/pi/Programming/Linux_Driver/05_hello_cdev/hello_cdev.ko := ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/pi/Programming/Linux_Driver/05_hello_cdev/hello_cdev.ko /home/pi/Programming/Linux_Driver/05_hello_cdev/hello_cdev.o /home/pi/Programming/Linux_Driver/05_hello_cdev/hello_cdev.mod.o;  true

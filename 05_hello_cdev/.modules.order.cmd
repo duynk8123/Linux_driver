@@ -1,0 +1,1 @@
+cmd_/home/pi/Programming/Linux_Driver/05_hello_cdev/modules.order := {   echo /home/pi/Programming/Linux_Driver/05_hello_cdev/hello_cdev.ko; :; } > /home/pi/Programming/Linux_Driver/05_hello_cdev/modules.order

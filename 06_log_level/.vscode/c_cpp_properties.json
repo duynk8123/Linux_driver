@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "linux-kernel-arm64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/lib/modules/6.1.21-v7+/build/include",
+                "/lib/modules/6.1.21-v7+/build/arch/arm/include",
+                "/usr/include",
+                "/usr/lib/gcc/aarch64-linux-gnu/*/include",
+                "/usr/src/linux-headers-6.1.21-v7+/arch/arm/include/generated"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
